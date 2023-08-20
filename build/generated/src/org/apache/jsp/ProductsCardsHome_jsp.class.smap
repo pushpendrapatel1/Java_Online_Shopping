@@ -1,0 +1,22 @@
+SMAP
+ProductsCardsHome_jsp.java
+JSP
+*S JSP
+*F
++ 0 ProductsCardsHome.jsp
+ProductsCardsHome.jsp
++ 1 CustomerLoginHeader.jsp
+CustomerLoginHeader.jsp
++ 2 CustomerSidebar.jsp
+CustomerSidebar.jsp
++ 3 Footer.jsp
+Footer.jsp
+*L
+5,16:51
+5#1,40:67
+20#0,2:106
+5#2,36:108
+21#0,2:144
+5#3,56:146
+22#0,26:202
+*E

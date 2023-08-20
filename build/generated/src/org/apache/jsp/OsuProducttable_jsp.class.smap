@@ -1,0 +1,30 @@
+SMAP
+OsuProducttable_jsp.java
+JSP
+*S JSP
+*F
++ 0 OsuProducttable.jsp
+OsuProducttable.jsp
++ 1 Osuheader.jsp
+Osuheader.jsp
++ 2 Osufooter.jsp
+Osufooter.jsp
+*L
+1,21:55
+5#1,42:76
+21#0,33:117
+54,9:151
+62,2:160
+64,7:162,3
+71,3:183
+73,2:186
+74,11:188
+5#2,54:199
+84#0,4:253
+88:257,3
+89:260
+90:261,3
+91,3:264
+94:267,3
+95,17:270
+*E

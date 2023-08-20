@@ -1,0 +1,36 @@
+SMAP
+CategoryTable_jsp.java
+JSP
+*S JSP
+*F
++ 0 CategoryTable.jsp
+CategoryTable.jsp
++ 1 Usersheader.jsp
+Usersheader.jsp
++ 2 SidebarMaster.jsp
+SidebarMaster.jsp
++ 3 Footer.jsp
+Footer.jsp
+*L
+5,19:54
+5#1,37:73
+23#0,2:110
+5#2,29:112
+24#0,2:140
+5#3,56:142
+25#0,18:198
+43,9:217
+51,2:226
+53,3:228,3
+56,2:237
+58,2:239,3
+60,4:245
+65,5:251
+69,13:256
+82:269,3
+83:272
+84:273,3
+85,3:276
+88:279,3
+89,6:282
+*E

@@ -1,0 +1,26 @@
+SMAP
+OsuSearchCustomers_jsp.java
+JSP
+*S JSP
+*F
++ 0 OsuSearchCustomers.jsp
+OsuSearchCustomers.jsp
++ 1 Osuheader.jsp
+Osuheader.jsp
++ 2 Osufooter.jsp
+Osufooter.jsp
+*L
+5,29:55
+5#1,42:84
+33#0,38:125
+71,13:164
+83,2:177
+85,5:179,3
+90,2:194
+92,5:197
+96,20:202
+5#2,54:222
+115#0,4:276
+119:280,3
+120,31:283
+*E

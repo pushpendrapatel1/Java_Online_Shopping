@@ -1,0 +1,964 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+      background: radial-gradient(#fff, rgb(178, 220, 233));
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+    padding: 20px;
+
+}
+
+.logo img {
+    width: 150px;
+
+}
+
+
+
+
+.navbar h4 {
+    position: absolute;
+    text-transform: capitalize;
+    top: 5%;
+    right: 6%;
+
+    font-size: 17px;
+
+}
+
+
+nav{
+        margin-top: 2%;
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 5%;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+nav ul li p {
+    color: #555;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid transparent;
+    position: relative;
+
+}
+
+nav li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #0f0f0f;
+    transition: width 0.5s ease-out;
+}
+
+nav li a:hover::after {
+    width: 100%;
+}
+
+ .container2{
+      
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 1px;
+    
+  }
+
+
+  
+  .container{
+      
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 10px 1px;
+    
+  }
+
+  
+.containerinform {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.row .col_2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.row .col_2 img {
+
+    width: 100%;
+    max-width: 100%;
+    margin-right: 30px;
+    padding: 5px;
+
+}
+
+.row .col_2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+
+
+
+
+
+
+.row a {
+    text-decoration: none;
+}
+
+.row .btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+
+.row .btn:hover {
+    background: #0e0d0d;
+    color: #ff523b;
+
+}
+
+.header {
+    background: radial-gradient(#fff, rgb(200, 250, 250));
+}
+
+.header .row {
+    margin-top: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a i {
+    color: #555;
+    font-size: 27px;
+}
+
+
+.categories {
+    margin: 70px 0;
+
+}
+
+.categories .col_3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+
+
+.categories .col_3 img {
+    width: 100%;
+border-radius: 5px;
+}
+
+
+
+
+
+
+/*  Featured category text overlay */
+
+
+.col_3 {
+  flex-basis: 33.33%;
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: opacity 0.5s ease;
+  border-radius: 5px;
+}
+
+.image-overlay:hover {
+  opacity: 0.1;
+ font-style: italic;
+}
+
+.overlay-text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;text-transform: uppercase;
+}
+
+
+/*  */
+
+
+
+.small_container {
+    max-width: 1084px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col_4 {
+    flex-basis: 25%;
+    padding: 12px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col_4 img {
+    width: 250px;
+   height: 250px;
+    border-radius: 5px;
+}
+
+.col_4 a {
+    align-self: center;
+}
+
+.buybtn {
+    font-size: 15px;
+    border: none;
+    background: #ff523b;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.buybtn:hover {
+    background: #000;
+    color: #ff523b;
+}
+
+.small_container .title {
+
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.small_container .title::after {
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.col_4 h4 {
+
+    color: #555;
+    font-weight: normal;
+}
+
+.col_4 p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.col_4:hover {
+    transform: translateY(-5px);
+}
+
+.offers {
+    background: radial-gradient(#fff, rgb(200, 250, 250));
+    margin-top: 30px;
+    padding: 30px 0;
+}
+
+.imgcnt {
+    padding: 60px;
+}
+
+.col_2 .offerimg {
+    padding: 50px;
+}
+
+small {
+    color: #555;
+
+}
+
+.menu_icon {
+    font-size: 25px;
+    color: #555;
+    margin-left: 20px;
+    display: none;
+}
+
+
+
+
+/* footer css  */
+
+
+
+
+
+
+
+#item-4 {
+    font-size: 20px;
+    background: #3b3b3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mincontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+
+}
+
+
+.usefullinks {
+
+    color: rgb(255, 254, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1%;
+
+}
+
+.usefullinks a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+    margin-top: 10px;
+
+}
+
+
+.usefullinks h3 {
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.copyright_text {
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 17px;
+    color: #706f6f;
+}
+
+.copyright_text a {
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    font-size: 17pxx;
+}
+
+.contacticons {
+    margin-top: 10px;
+}
+
+.contacticons i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+
+.address i {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.address p {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.row_2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+    margin-right: 10px;
+}
+
+select {
+    border: 1px solid #0a0a0a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.categoryselector input[type=submit] {
+    border: none;
+    background: #ff523b;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categoryselector input[type=submit]:hover {
+    background: #000;
+    color: #ff523b;
+}
+
+
+.contacticons a:nth-child(1):hover i {
+    color: #305cad;
+}
+
+.contacticons a:nth-child(2):hover i {
+    color: #f07a94;
+}
+
+.contacticons a:nth-child(3):hover i {
+    color: #0000ff;
+}
+
+.contacticons a:nth-child(4):hover i {
+    color: #ff0000;
+}
+
+
+
+
+
+/*  */
+
+body {
+      background: radial-gradient(#fff, rgb(178, 220, 233));
+  
+}
+
+.account_page {
+    padding: 50px 0;
+
+}
+
+.form_container {
+    background: #fff;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form_container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form_container .form_btn {
+    display: inline-block;
+}
+
+.form_container .form1 {
+    position: absolute;
+    top: 150px;
+    padding: 10px;
+    width: 100%;
+    transition: transform 1s;
+}
+
+
+.form_container .form1 a {
+    text-decoration: none;
+    transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.form_container .form1 a:hover {
+    transform: scale(1.1);
+}
+
+
+.form_container .form2 {
+    position: absolute;
+    top: 70px;
+    padding: 10px;
+}
+
+.form_container form input {
+
+    width: 90%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+
+}
+
+.form_container .form1 input {
+
+    width: 90%;
+    height: 30px;
+    margin: 20px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+}
+
+.form_container form .btn {
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.form_container form .btn:focus {
+    outline: none;
+}
+
+#loginform {
+    left: 400px;
+}
+
+#registerfrom {
+    left: 0;
+}
+
+#indicator {
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+    ;
+}
+
+
+
+/* css for profile  */
+.account_page_profile {
+
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 10px 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10%;
+}
+
+
+.account_page_profile .items {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account_page_profile .items .mincontainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account_page_profile .items .mincontainer a {
+    font-size: 19px;
+    text-decoration: none;
+    align-self: flex-end;
+    margin-right: 8%;
+
+    transition: background-color 0.2s ease-out, transform 0.2s ease-out;
+    color: #000;
+    background: transparent;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+.account_page_profile .items .mincontainer a:hover {
+    transform: scale(1.1);
+    background: #000;
+    color: rgb(252, 253, 253);
+
+}
+
+.account_page_profile .items .mincontainer table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.account_page_profile .items .mincontainer table tr {
+
+    font-size: 18px;
+
+}
+
+.account_page_profile .items .mincontainer table td {
+    padding: 10px 10px;
+}
+
+.account_page_profile .items .mincontainer table td label {
+    font-weight: bold;
+}
+
+.account_page_profile .items .mincontainer table td input {
+    border: none;
+    font-size: 20px;
+    width: 70%;
+    background: transparent;
+}
+
+.account_page_profile .items .mincontainer table td button {
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+
+/*  */
+
+
+
+/* Css for profile update */
+
+
+.mincontainer_update {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.account_page_profile .items .mincontainer_update table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.account_page_profile .items .mincontainer_update table tr {
+
+    font-size: 18px;
+
+}
+
+.account_page_profile .items .mincontainer_update table td {
+    padding: 5px 20px;
+}
+
+.account_page_profile .items .mincontainer_update table td label {
+    font-size: 20px;
+}
+
+.account_page_profile .items .mincontainer_update table td input {
+    height: 28px;
+    background: #d6d6d6;
+    border: none;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.account_page_profile .items .mincontainer_update table #updatebtns {
+text-align: center;
+}
+.account_page_profile .items .mincontainer_update table #updatebtns button {
+    text-align: center;
+    padding: 3px 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition:  transform 0.2s ease-out;
+   
+    }
+.account_page_profile .items .mincontainer_update table #updatebtns button:hover {
+transform:scale(1.1);
+border:l
+}
+
+/*  */
+
+
+
+/* Cart Css */
+
+
+.cartpage{
+  
+    margin: 10px auto;
+  
+  
+
+ padding:10px 80px;
+ }
+
+.mycartcnt{
+    height: 500px;
+    padding:10px;
+  
+
+    border-radius: 2px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+margin-bottom: 20px;
+    
+   
+}
+
+.cartiteminfo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: flex-start;
+  
+}
+.cartiteminfo button{
+    border: none;
+}
+.cartiteminfo .removeitemc i{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px;
+    width: 40px;
+    text-align: center;
+    background: #ff523b;
+    border-radius: 5px;
+    color: #000;
+    transition: transform 0.2s ease-in-out;
+   margin-top: 2px;
+
+}
+.cartiteminfo .removeitemc i:hover{
+   text-emphasis: none;
+   transform: scale(0.9);
+}
+
+.cartiteminfo small{
+    font-size: 12px;
+    
+   
+}
+.cartiteminfo p{
+    font-size: 15px;
+    padding: 2px;
+}
+.mycartcnt #buybtn_2{
+    text-decoration: none;
+   margin-top: 5%;
+    border-radius: 2px;
+    background: #ff523b;
+    color: #000;
+  
+   text-align: center;
+  padding: 5px 10px;
+   align-self: center;
+   transition:  transform 0.2s ease-out;
+}
+
+.mycartcnt #buybtn_2:hover{
+transform: scale(1.1);
+}
+.cartpage table{
+ 
+    width: 100%;
+    border-collapse: collapse;
+  
+}
+
+.cartinfo{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.cartpage table th{
+    
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+
+.cartpage table td{
+   padding: 5px 5px;
+}
+.cartpage table td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+ }
+
+
+
+ .totalprice{
+    display: flex;
+    justify-content: flex-end;
+
+ }
+ .totalprice table{
+    border: none;
+    margin-top: 10px;
+  border-top: 3px solid #ff523b;
+  width: 100%;
+  max-width: 40%;
+    
+ }
+
+ .cartpage table td:last-child{
+    text-align: right;
+ }
+ .cartpage table th:last-child{
+    text-align: right;
+ }
+/*  */
+@media only screen and (max-width:800px) {
+
+    nav ul {
+        position: absolute;
+        top: 180px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        border-radius: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .menu_icon {
+
+        display: block;
+        cursor: pointer;
+
+    }
+   .account_page_profile .items .mincontainer_update table td{
+    display: flex;
+    flex-wrap: wrap;
+ width: 100%;
+   }
+   .cartinfo p{
+    display: none;
+   }
+    
+   .cartinfo small{
+    display: none;
+   }
+     
+    }
+   
+    
+    
+
+
+
+
+@media only screen and (max-width:600px) {
+    .row {
+        text-align: center;
+    }
+
+    .col_2,
+    .col_3,
+    .col_4 {
+        flex-basis: 100%;
+    }
+}
+

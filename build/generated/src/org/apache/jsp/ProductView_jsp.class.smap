@@ -1,0 +1,22 @@
+SMAP
+ProductView_jsp.java
+JSP
+*S JSP
+*F
++ 0 ProductView.jsp
+ProductView.jsp
++ 1 Usersheader.jsp
+Usersheader.jsp
++ 2 SidebarMaster.jsp
+SidebarMaster.jsp
++ 3 Footer.jsp
+Footer.jsp
+*L
+5,15:51
+5#1,37:66
+19#0,2:103
+5#2,29:105
+20#0,2:133
+5#3,56:135
+21#0,42:191
+*E

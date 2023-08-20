@@ -1,0 +1,25 @@
+SMAP
+UserSearchProductBwP_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserSearchProductBwP.jsp
+UserSearchProductBwP.jsp
++ 1 Osuheader.jsp
+Osuheader.jsp
++ 2 Osufooter.jsp
+Osufooter.jsp
+*L
+5,19:53
+5#1,42:72
+23#0,17:113
+40,4:131
+43:135
+44:136,6
+45:142,3
+46,11:145
+5#2,54:156
+56#0,2:210
+58:212,3
+59,19:215
+*E

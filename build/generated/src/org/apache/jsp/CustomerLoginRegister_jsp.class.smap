@@ -1,0 +1,16 @@
+SMAP
+CustomerLoginRegister_jsp.java
+JSP
+*S JSP
+*F
++ 0 CustomerLoginRegister.jsp
+CustomerLoginRegister.jsp
++ 1 CustomerFooter.jsp
+CustomerFooter.jsp
+*L
+5,32:49
+37:81,3
+38,42:84
+5#1,61:126
+79#0,5:187
+*E

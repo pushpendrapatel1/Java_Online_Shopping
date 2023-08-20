@@ -1,0 +1,32 @@
+SMAP
+OsuCustomersTable_jsp.java
+JSP
+*S JSP
+*F
++ 0 OsuCustomersTable.jsp
+OsuCustomersTable.jsp
++ 1 Osuheader.jsp
+Osuheader.jsp
++ 2 Osufooter.jsp
+Osufooter.jsp
+*L
+5,26:53
+5#1,42:79
+30#0,33:120
+63,5:154
+67,2:159
+69,5:161,3
+74:176
+75:177,3
+76,3:180
+78,2:183
+79,12:185
+5#2,54:197
+90#0,3:251
+93:254,3
+94:257
+95:258,3
+96,3:261
+99:264,3
+100,20:267
+*E

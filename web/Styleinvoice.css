@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+html {
+    margin: 30px 10px;
+    padding: 10px;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    background: #969595;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+.header .search .form-control {
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    background: rgba(0, 52, 187, 0.06);
+    border: 1px solid transparent;
+    color: #2B2B2B;
+    padding-left: 40px;
+    outline: 0px;
+}
+
+.header .search .form-control:focus {
+    background: #fff;
+    border-color: #0034BB;
+}
+
+.header .search .form-control::placeholder {
+    color: rgba(0, 52, 187, 0.5);
+}
+
+.main-content {
+    padding: 0px 20px;
+}
+
+.invoice-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.invoice-container .top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center   ;
+}
+
+.invoice-container .top .top-left img {
+    width: 30%;
+}
+.invoice-container .top .top-right  {
+    margin-right: 5%;
+}
+
+.invoice-container .top .main {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+   
+}
+
+.invoice-container .top .code {
+    font-size: 24px;
+}
+
+.invoice-container .top .date {
+    font-size: 20px;
+    color: #969595;
+
+}
+
+.bill-box {
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: #ADADAD;
+    padding: 0 25px;
+}
+
+.bill-box .left,
+.bill-box .right {
+    max-width: 240px;
+}
+
+.bill-box .text-m {
+    color: #464545;
+    font-size: 20px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.bill-box .title {
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.table-bill table {
+    width: 100%;
+    border-collapse: 0px;
+    border-spacing: 0px;
+  
+    text-align: center;
+}
+
+.table-bill th,
+.table-bill td {
+  text-align: left;
+    padding: 10px ;
+    font-weight: 500;
+}
+
+
+
+
+.table-bill td {
+    text-align: left;
+    padding:  8px;
+    font-size: 18px;
+}
+.table-bill td i {
+  
+    font-size: 15px;
+}
+
+.table-bill th {
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #0034BB;
+    font-weight: 500;
+}
+
+.table-bill .quantity {
+    width: 100px;
+}
+
+.table-bill .cost {
+   
+    white-space: nowrap;
+}
+
+
+.table-bill .table-service tbody td:nth-child(2)
+ {
+  text-align: center;
+}
+
+.table-bill .total td {
+    font-weight: normal;
+    font-size: 19px;
+    color: #0034BB;
+      text-align: left;
+      margin: 0px;
+      padding: 2px;
+}
+
+
+
+.table-bill .total1 td {
+    border-top: 2px solid #ececec;
+   
+}
+
+.table-bill .finalprice td {
+    font-weight: normal;
+    font-size: 22px;
+    color: #0034BB;
+      text-align: left;
+      margin: 0px;
+      padding: 2px;
+}
+
+.table-bill .finalprice td i {
+    font-size: 20px;
+}
+
+
+.table-bill .finalprice td {
+    border-top: 2px solid #ececec;
+    font-weight: 800;
+   
+}
+
+.table-bill .total .number {
+    text-align: left;
+    font-weight: 500;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+
+.btn {
+    border: none;
+    width: 110px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #313131;
+    padding: 8px 15px;
+   border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+  }
+  
+.btn a {
+    text-decoration: none;
+    position: relative; 
+    z-index: 1;
+    color: #fff;
+  }
+  
+.btn span {
+    text-decoration: none;
+    position: relative; 
+    z-index: 1;
+    color: #fff;
+  }
+  
+  
+  
+  .btn:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400%;
+    width: 140%;
+    background: #78c7d2;
+    color: #0a0a0a;
+   transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  }
+  
+  .btn:hover:after {
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  }
+  
+
+.note {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 15px;
+    color: #ADADAD;
+}
+
+@media (max-width: 1320px) {
+
+    body,
+    html {
+        font-size: 14px;
+    }
+
+    .invoice-container .top .date {
+        font-size: 14px;
+    }
+
+    .invoice-container .top .main {
+        font-size: 32px;
+    }
+
+    .invoice-container .top .code {
+        font-size: 18px;
+    }
+
+    .bill-box .text-m {
+        font-size: 14px;
+    }
+
+    .bill-box .title {
+        font-size: 1.5rem;
+    }
+
+    .table-bill .total {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .invoice-container .top {
+        display: block;
+    }
+
+    .invoice-container .top .top-left {
+        margin-bottom: 1rem;
+    }
+
+    .bill-box {
+        display: block;
+    }
+
+    .bill-box .left,
+    .bill-box .right {
+        max-width: 100%;
+    }
+
+    .table-bill table,
+    .table-bill tbody,
+    .table-bill tfoot,
+    .table-bill td,
+    .table-bill th,
+    .table-bill tr {
+        display: block;
+    }
+
+    .table-bill th {
+        display: none;
+    }
+
+    .table-bill tbody tr {
+        padding: 10px 0px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .table-bill tbody tr td:second-child {
+        display: none;
+    }
+
+    .table-bill td {
+         text-align: center;
+        padding: 5px 0px;
+    }
+
+    .table-bill .total {
+        margin-top: 20px;
+    }
+
+    .table-bill .total td {
+        border-top: 0px;
+    }
+
+    .table-bill .total .number {
+        text-align: left;
+    }
+}
+
+@media (max-width: 420px) {
+    .actions .btn {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    .header {
+        display: block;
+    }
+}

@@ -1,0 +1,25 @@
+SMAP
+UserSearchCategory_jsp.java
+JSP
+*S JSP
+*F
++ 0 UserSearchCategory.jsp
+UserSearchCategory.jsp
++ 1 Osuheader.jsp
+Osuheader.jsp
++ 2 Osufooter.jsp
+Osufooter.jsp
+*L
+5,19:53
+5#1,42:72
+23#0,21:113
+45,5:136
+49:141
+50:142,6
+51:148,3
+52,7:151
+5#2,54:158
+58#0,4:212
+62:216,3
+63,22:219
+*E

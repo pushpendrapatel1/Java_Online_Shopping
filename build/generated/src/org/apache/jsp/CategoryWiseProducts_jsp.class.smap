@@ -1,0 +1,39 @@
+SMAP
+CategoryWiseProducts_jsp.java
+JSP
+*S JSP
+*F
++ 0 CategoryWiseProducts.jsp
+CategoryWiseProducts.jsp
++ 1 Customerheader.jsp
+Customerheader.jsp
++ 2 CustomerFooter.jsp
+CustomerFooter.jsp
+*L
+5,23:57
+5#1,26:80
+30,7:106
+36:113
+37:114,3
+38,16:117
+54:133,3
+55,6:136
+27#0:142
+29,8:144
+36,3:152
+39:155,3
+40,4:158
+45,3:164
+47:167
+48:168,6
+49:174,3
+50,7:177
+57,7:185
+63,3:192
+66,4:195,3
+70,5:207
+75:212,3
+76,10:215
+5#2,61:225
+85#0,5:286
+*E

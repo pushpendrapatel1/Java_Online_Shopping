@@ -1,0 +1,22 @@
+SMAP
+RegisterCustomer_jsp.java
+JSP
+*S JSP
+*F
++ 0 RegisterCustomer.jsp
+RegisterCustomer.jsp
++ 1 CustomersHeader.jsp
+CustomersHeader.jsp
++ 2 CustomerSidebar.jsp
+CustomerSidebar.jsp
++ 3 Footer.jsp
+Footer.jsp
+*L
+1,16:51
+5#1,36:67
+16#0,2:103
+5#2,33:105
+17#0,2:138
+5#3,56:140
+18#0,51:196
+*E
